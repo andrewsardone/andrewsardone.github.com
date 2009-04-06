@@ -1,7 +1,7 @@
 About
 =====
 
-[andrewsardone.com](andrewsardone.com), hosted on GitHub, generated (eventually) via [Jekyll](http://github.com/mojombo/jekyll/tree/master).
+[andrewsardone.com](http://andrewsardone.com), hosted on GitHub, generated (eventually) via [Jekyll](http://github.com/mojombo/jekyll/tree/master).
 
 License
 =======
