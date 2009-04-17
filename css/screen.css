@@ -1,7 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	background: #EAEAEA;
 }
 
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #EAEAEA;
+	font: 13.34px helvetica, arial, clean, sans-serif;
+	*font-size: small;
+}
+
 h1 {
-	color: #444;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 6.5em;
+  color: #405156;
+}
+
+a {
+  padding: 0.1em 0.2em;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+    background-color: #405156;
+    color: #fff;
+}
+
+#nav li {
+	margin: 5px 10px;
+	font-size: 1.5em;
+}
+
+#ft {
+	margin-top: 5px;
+}
+
+#ft a {
+	padding: 0;
+	text-decoration: underline;
+}
+
+.post h1, h2, h3 {
+	margin-bottom: 0.3em;
+}
+
+.post h1 {
+	font-size: 2.9em;
+}
+
+.post h2 {
+	font-size: 1.9em;
+}
+
+.post h3 {
+	font-size: 1.5em;
+}
+
+.post .permalink {
+	font-size: .8em;
+}
+
+
+.post .content p {
+	margin-bottom: 1em;
+	line-height: 1.2em;
 }
