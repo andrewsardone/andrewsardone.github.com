@@ -3,11 +3,15 @@ layout: default
 title: Andrew Sardone
 ---
 <div class="yui-g">
-  <div class="post">
-    <div class="heading">
+  {% for post in site.posts limit:5 %}
+    <div class="post">
+      <div class="heading">
+        <h3>{{ post.date | date: "%Y.%m.%d"}}</h3>
+        <span class="permalink"><a href="{{ post.url }}">&#8734; permalink</a></span>
+      </div>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </div>
-    <div class="content">
-      <h1>Refresh coming soon...
-    </div>
-  </div>
+  {% endfor %}
 </div>
