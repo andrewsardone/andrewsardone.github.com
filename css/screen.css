@@ -44,7 +44,7 @@ a:hover {
 	margin-top: 5px;
 }
 
-#ft a {
+#ft, .wrapper a {
 	padding: 0;
 	text-decoration: underline;
 }
@@ -65,14 +65,13 @@ a:hover {
 	font-size: 1.5em;
 }
 
-.post .permalink {
-	font-size: .6em;
-}
-
-
-.post .content p {
+.wrapper p {
 	margin-bottom: 1em;
 	line-height: 1.2em;
+}
+
+.post .permalink {
+	font-size: .6em;
 }
 
 .post hr {
