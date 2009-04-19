@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-	background-color: #EAEAEA;
+	background-color: #FFF;
 	font: 13.34px helvetica, arial, clean, sans-serif;
 	*font-size: small;
 }
@@ -44,7 +44,7 @@ a:hover {
 	margin-top: 5px;
 }
 
-#ft, .wrapper a {
+#ft a, .wrapper a {
 	padding: 0;
 	text-decoration: underline;
 }
