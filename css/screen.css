@@ -77,3 +77,12 @@ a:hover {
 .post hr {
 	margin-bottom: 2em;
 }
+
+.post blockquote {
+	display: block;
+	color: #383838;
+	font-style: italic;
+	border-left: 3px solid rgb(230,229,221);
+	margin: 1em 2em;
+	padding-left: 1em;
+}
