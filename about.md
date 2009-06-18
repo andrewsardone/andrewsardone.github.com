@@ -10,4 +10,4 @@ My name is Andrew. I'm a technology professional focused mainly on software deve
 
 ![me](/images/me.png "Andrew Sardone")
 
-I live in [Ann Arbor, MI](http://annarbor.com) and attended the [University of Michigan](http://umich.edu) where I studied [math](http://www.math.lsa.umich.edu/). Find me on the web at the links on the side.
+I live in [Ann Arbor, MI](http://annarbor.com) and attended the [University of Michigan](http://umich.edu) where I studied [math](http://www.math.lsa.umich.edu/). Find me on the web at the links on the side, or email me at andrew (dot) sardone (at) gmail (dot) com.
