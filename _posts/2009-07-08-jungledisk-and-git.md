@@ -9,31 +9,14 @@ One use for JungleDisk that I find to be really handy is hosting remote Git repo
 
 First, I have a little helper script, `makeGitRepo`:
 
-{% highlight bash %}
-#!/usr/bin/env bash                                                                                                                    
-#
-# Usage: 
-#   makeGitRepo project_name
-# 
-
-mkdir -m 770 $1.git
-cd $1.git
-git --bare init --shared=group
-{% endhighlight %}
+<script src="http://gist.github.com/215436.js"></script>
 
 Pop that on to my `$PATH` and I can easily create a remote repository on my JungleDisk:
 
-{% highlight bash %}
-$ pushd /Volumes/JungleDisk/Git
-$ makeGitRepo project
-{% endhighlight %}
+<script src="http://gist.github.com/215438.js"></script>
 
 Then all I need to do is add it as a remote within my Git repository and push:
 
-{% highlight bash %}
-$ pushd ~/code/project
-$ git remote add jungledisk /Volumes/JungleDisk/Git/project.git
-$ git push --all jungledisk
-{% endhighlight %}
+<script src="http://gist.github.com/215439.js"></script>
 
 Easy enough.
