@@ -5,6 +5,13 @@ Using GitHub pages to host [andrewsardone.com](http://andrewsardone.com), and ge
 
 The site acts as a place for me to drop whatever interests me.
 
+Todo
+====
+
+- Watch for embedding multiple file Gists:
+
+  - http://support.github.com/discussions/gist/103-multiple-files-and-embedding
+
 License
 =======
 
