@@ -10,6 +10,8 @@ html, body {
   height: 100%;
 }
 
+#custom-doc { width: 950px; }
+
 body {
   background-color: #FFF;
   font: 13.34px 'Helvetica Neue', Helvetica, Arial, sans-serif
@@ -19,7 +21,7 @@ body {
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 5.5em;
+  font-size: 5.8em;
   color: #405156;
 }
 
@@ -36,7 +38,7 @@ a:hover {
 
 #nav li {
   margin: 5px 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 #ft {
@@ -57,16 +59,16 @@ a:hover {
 }
 
 .wrapper h2 {
-  font-size: 1.9em;
+  font-size: 2.2em;
 }
 
 .wrapper h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .wrapper p {
-  margin-bottom: 1em;
-  line-height: 1.2em;
+  margin-bottom: 1.3em;
+  line-height: 1.3em;
 }
 
 .post .permalink {
@@ -76,6 +78,10 @@ a:hover {
 .post hr {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+.post .content p {
+    font-size: 1.3em;
 }
 
 .post blockquote {
