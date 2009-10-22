@@ -9,14 +9,14 @@ One use for JungleDisk that I find to be really handy is hosting remote Git repo
 
 First, I have a little helper script, `makeGitRepo`:
 
-<script src="http://gist.github.com/215436.js"></script>
+<script src="http://gist.github.com/215436.js">;</script>
 
 Pop that on to my `$PATH` and I can easily create a remote repository on my JungleDisk:
 
-<script src="http://gist.github.com/215438.js"></script>
+<script src="http://gist.github.com/215438.js">;</script>
 
 Then all I need to do is add it as a remote within my Git repository and push:
 
-<script src="http://gist.github.com/215439.js"></script>
+<script src="http://gist.github.com/215439.js">;</script>
 
 Easy enough.
