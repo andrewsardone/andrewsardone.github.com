@@ -3,26 +3,42 @@
   padding: 0;
 }
 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+.clear { clear: both; }
+
 html {
+  color: 000;
+  background: #fff;
 }
 
 html, body {
   height: 100%;
 }
 
-#custom-doc { width: 950px; }
-
 body {
-  background-color: #FFF;
-  font: 13.34px 'Helvetica Neue', Helvetica, Arial, sans-serif
-  *font-size: small;*/
+  text-align: center;
+  background-color: #fff;
+  font: 13.34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 5.8em;
-  color: #405156;
+/*  */
+}
+
+h1 a {
+  color: #000;
+}
+
+h1 a:hover {
+  background-color: #fff;
+  color: #333;
 }
 
 a {
@@ -32,8 +48,35 @@ a {
 }
 
 a:hover {
-  background-color: #405156;
+/*  background-color: #405156;*/
+  background-color: #333;
   color: #fff;
+}
+
+li { list-style: none; }
+
+#wrapper {
+  width: 950px;
+  position: static;
+  text-align: left;
+  margin: auto;
+  padding: 0 1em 1em 1em;
+}
+
+#header { 
+}
+
+#middle {
+}
+
+#left {
+  width: 712px;
+  float: left;
+}
+
+#right {
+  width: 230px;
+  float: right;
 }
 
 #nav li {
@@ -41,34 +84,34 @@ a:hover {
   font-size: 1.8em;
 }
 
-#ft {
+#footer {
   margin-top: 5px;
 }
 
-#ft a, .wrapper a {
+#footer a, .content a {
   padding: 0;
   text-decoration: underline;
 }
 
-.wrapper p, .wrapper li { font-size: 1.3em; }
+.content p, .content li, #left p { font-size: 1.3em; }
 
-.wrapper h1, h2, h3 {
+.content h1, h2, h3 {
   margin-bottom: 0.3em;
 }
 
-.wrapper h1 {
+.content h1 {
   font-size: 2.9em;
 }
 
-.wrapper h2 {
+.content h2, #left h2 {
   font-size: 2.2em;
 }
 
-.wrapper h3 {
+.content h3 {
   font-size: 1.8em;
 }
 
-.wrapper p {
+.content p, #left p {
   margin-bottom: 1.3em;
   line-height: 1.3em;
 }
