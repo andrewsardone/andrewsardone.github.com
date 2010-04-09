@@ -72,6 +72,7 @@ a:hover {
 
 #nav ul {
   list-style-type: none;
+  width: 220px;
 }
 
 #nav li {
@@ -87,6 +88,14 @@ a:hover {
   padding: 6px;
   text-align: right;
   list-style-type: none;
+}
+
+#nav li a {
+  display: block;
+}
+
+#nav li a:hover {
+  background-color: #ffefa7
 }
 
 .post {
