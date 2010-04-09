@@ -9,6 +9,11 @@ $(document).ready(function() {
       offset: [65, 0],
       effect: 'fade'
   });
+  $("#github_link").tooltip({
+      tip: "#github_tooltip",
+      offset: [65, 0],
+      effect: 'fade'
+  });
   $("#facebook_link").tooltip({
       tip: "#facebook_tooltip",
       offset: [65, 0],
