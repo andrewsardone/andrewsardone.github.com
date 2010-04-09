@@ -175,6 +175,46 @@ a:hover {
   font-size: 12px;
 }
 
+#twitter_feed {
+  margin-top: 20px;
+}
+
+#twitter_header {
+  text-align: right;
+  border-bottom: 1px solid #e8cb83;
+}
+
+#twitter_header h3 {
+  font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+#twitter_header h3 a {
+  color: #e8cb83;
+}
+
+#twitter_loading {
+  text-align: center;
+}
+
+.tweet_list li {
+  margin: 10px 0;
+}
+
+.tweet_list a {
+  color: #8f7c6e;
+}
+
+.tweet_time {
+  font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+.tweet_text {
+  color: #e8cb83;
+  font-size: 1.4em;
+}
+
 #footer {
   background-color: #333033;
   width: 100%;

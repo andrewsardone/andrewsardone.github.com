@@ -39,11 +39,11 @@ var Site = {
   },
 
   addTweets: function () {
-    $("#twitter_feed").tweet({
+    $("#tweets").tweet({
       username: "andrewa2",
       count: 8,
-      join_text: null,
-      loading_text: "loading tweets..."
+      join_text: null
+      // loading_text: '<div id="twitter_loading"><img src="/images/spinner.gif"\></div>'
     });
   }
 }
