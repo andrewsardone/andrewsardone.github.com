@@ -129,6 +129,15 @@ a:hover {
   margin: 13px 0;
 }
 
+.post .content a {
+  text-decoration: underline;
+}
+
+.post .content a:hover {
+  background-color: #505c50;
+  color: white;
+}
+
 .gist {
   margin-bottom: 1.3em;
   font-size: 12px;
