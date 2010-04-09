@@ -57,6 +57,12 @@ h1 {
   color: #8F7C6E;
 }
 
+.social_link {}
+
+.social_tooltip {
+  display: none;
+}
+
 a {
   color: #505c50;
   text-decoration: none;
