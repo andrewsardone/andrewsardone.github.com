@@ -36,10 +36,20 @@ var Site = {
         tip: "#tumblr_tooltip",
         offset: [65, 0]
     });
+  },
+
+  addTweets: function () {
+    $("#twitter_feed").tweet({
+      username: "andrewa2",
+      count: 8,
+      join_text: null,
+      loading_text: "loading tweets..."
+    });
   }
 }
 
 
 $(document).ready(function() {
   Site.enableToolTipBehavior();
+  Site.addTweets();
 });
