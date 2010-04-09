@@ -138,6 +138,10 @@ a:hover {
   color: white;
 }
 
+.post .content .archive {
+  list-style-type: none;
+}
+
 .gist {
   margin-bottom: 1.3em;
   font-size: 12px;
