@@ -60,7 +60,15 @@ h1 {
 .social_link {}
 
 .social_tooltip {
+  background:url("/images/black_arrow_bottom.png");
+ font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
   display: none;
+  font-size: 1.1em;
+  height: 10px;
+  width: 50px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
 }
 
 a {
