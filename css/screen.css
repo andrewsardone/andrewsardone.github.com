@@ -165,6 +165,11 @@ a:hover {
   list-style-type: none;
 }
 
+.content h2 {
+  font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+
 .gist {
   margin-bottom: 1.3em;
   font-size: 12px;
