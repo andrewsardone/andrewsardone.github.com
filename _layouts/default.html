@@ -10,38 +10,65 @@
   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"/>
 </head>
 <body>
-<!--[if lt IE 7]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>      </div>      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]-->
-<div id="wrapper">
-  <div id="header" role="banner">
-    <h1><a href="/">Andrew Sardone</a></h1>
-  </div>
-  <div id="middle">
-    <div id="left">
-      {{ content }}
+
+<div id="header">
+  <div class="row">
+    <div class="column grid_9">
+      <h1  role="banner">
+        <a href="/"><span class="firstname">andrew</span><span class="lastname">sardone</span></a>
+      </h1>
     </div>
-    <div id="right">
-      <ul id="nav" role="navigation">
-        <li><a href="/about">About</a></li>
-        <li><a href="/archive">Archive</a></li>
-        <li>&mdash;</li>
-        <li><a href="http://twitter.com/andrewa2">twitter</a></li>
-        <li><a href="http://www.facebook.com/andrewsardone">facebook</a></li>
-        <li><a href="http://andrewsardone.tumblr.com">tumblr</a></li>
-        <li><a href="http://github.com/andrewsardone">github</a></li>
-        <li><a href="http://flickr.com/photos/andrewsardone">flickr</a></li>
-        <li><a href="http://last.fm/user/andrewsardone">last.fm</a></li>
-        <li><a href="http://www.linkedin.com/in/sardone">linkedin</a></li>
-        <li><a href="http://osx.iusethis.com/user/andrew">iusethis</a></li>
-      </ul>
+    <div class="column grid_3 align_right">
+      <a id="rss_link" class="social_link" href="http://feeds2.feedburner.com/andrewsardone"><img src="/images/rss.png"/></a>
+      <div id="rss_tooltip" class="social_tooltip">RSS</div>
+      <a id="twitter_link" class="social_link" href="http://twitter.com/andrewa2"><img src="/images/twitter.png"/></a>
+      <div id="twitter_tooltip" class="social_tooltip">twitter</div>
+      <a id="github_link" class="social_link" href="http://github.com/andrewsardone"><img src="/images/github.png"/></a>
+      <div id="github_tooltip" class="social_tooltip">github</div>
+      <a id="facebook_link" class="social_link" href="http://facebook.com/andrewsardone"><img src="/images/facebook.png"/></a>
+      <div id="facebook_tooltip" class="social_tooltip">facebook</div>
+      <a id="flickr_link" class="social_link" href="http://flickr.com/photos/andrewsardone"><img src="/images/flickr.png"/></a>
+      <div id="flickr_tooltip" class="social_tooltip">flickr</div>
+      <a id="delicious_link" class="social_link" href="http://delicious.com/andrewsardone"><img src="/images/delicious.png"/></a>
+      <div id="delicious_tooltip" class="social_tooltip">delicious</div>
+      <a id="lastfm_link" class="social_link" href="http://last.fm/user/andrewsardone"><img src="/images/last-fm.png"/></a>
+      <div id="lastfm_tooltip" class="social_tooltip">last.fm</div>
+      <a id="linkedin_link" class="social_link" href="http://www.linkedin.com/in/sardone"><img src="/images/linked-in.png"/></a>
+      <div id="linkedin_tooltip" class="social_tooltip">linkedin</div>
+      <a id="tumblr_link" class="social_link" href="http://andrewsardone.tumblr.com"><img src="/images/tumblr.png"/></a>
+      <div id="tumblr_tooltip" class="social_tooltip">tumblr</div>
     </div>
-    <div class="clear"></div>
-  </div>
-  <div id="footer" role="contentinfo">
-    &mdash;<br/>
-    <p>Hosted on <a href="http://github.com/andrewsardone/andrewsardone.github.com">GitHub</a>. Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a>.</p>
-    <p>All original content, unless otherwise noted, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.</p>
   </div>
 </div>
+
+<div id="middle">
+ <div class="row">
+   <div class="column grid_9">
+     {{ content }}
+   </div>
+   <div class="column grid_3">
+     <ul id="nav" role="navigation">
+<!-- Software developer by day, amateur mathematician and tech soldier of fortune by night. -->
+       <li><a href="/about">About</a></li>
+       <li><a href="/archive">Archive</a></li>
+     </ul>
+   </div>
+ </div>
+</div>
+
+<div id="footer">
+  <div class="row">
+    <div class="column grid_12" role="contentinfo">
+      <p>Hosted on <a href="http://github.com/andrewsardone/andrewsardone.github.com">GitHub</a>. Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a>.</p>
+      <p>Social Icons by <a href="http://www.dawghousedesignstudio.com/">Jan Cavan of Dawghouse Design Studio</a> with a GitHub addition by me.</p>
+      <p>All original content, unless otherwise noted, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.</p>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/tools.tooltip-1.1.3.js"></script>
+<script type="text/javascript" src="/js/site.js"></script>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
