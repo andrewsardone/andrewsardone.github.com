@@ -176,6 +176,7 @@ a:hover {
 }
 
 #twitter_feed {
+  display: none;
   margin-top: 20px;
 }
 
