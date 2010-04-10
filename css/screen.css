@@ -13,6 +13,10 @@
 html {
 }
 
+html, body, #wrap { height: 100%; }
+
+body > #wrap { height: auto; min-height: 100%; }
+
 @font-face { font-family: Tallys; src: url('Tallys.otf'); }
 
 @font-face { font-family: AvantGarde; src: url("avgardn.ttf"); }
@@ -22,6 +26,15 @@ body {
   font: 12px "Tallys", Georgia, serif;
   height: 100%;
   background-color: #3d3636;
+}
+
+/*Opera Fix*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/
 }
 
 #header {
@@ -82,6 +95,8 @@ a:hover {
 
 #middle {
   margin: 20px 0;
+  overflow:auto;
+  padding-bottom: 120px; /* must be same height as footer */
 }
 
 #nav ul {
@@ -218,10 +233,12 @@ a:hover {
 }
 
 #footer {
+  position: relative
+  clear: both;
   background-color: #333033;
   width: 100%;
   height: 120px;
-  margin: 0;
+  margin-top: -120px;
   padding: 20px 0;
   font-size: 1.3em;
   font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
