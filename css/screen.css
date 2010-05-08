@@ -17,13 +17,15 @@ html, body, #wrap { height: 100%; }
 
 body > #wrap { height: auto; min-height: 100%; }
 
-@font-face { font-family: Tallys; src: url('Tallys.otf'); }
+@font-face { font-family: "Bitstream Vera Serif"; src: url("VeraSe.ttf"); }
+
+@font-face { font-family: "Bitstream Vera Sans Mono"; src: url("VeraMono.ttf"); }
 
 @font-face { font-family: AvantGarde; src: url("avgardn.ttf"); }
 
 body {
   height: 100%;
-  font: 12px "Tallys", Georgia, serif;
+  font: 12px "Bitstream Vera Serif", Georgia, serif;
   height: 100%;
   background-color: #3d3636;
 }
@@ -153,7 +155,8 @@ a:hover {
 }
 
 .post .content {
-  font-size: 1.8em;
+  font-size: 1.2em;
+  line-height: 1.5em;
   color: #3d4955;
   background-color: white;
   padding: 12px;
@@ -161,6 +164,17 @@ a:hover {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+.post .content pre {
+  font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
+  line-height: 1.4em;
+}
+
+.post .content blockquote {
+  margin: 1em 25px;
+  padding-left: 1em;
+  border-left: 4px solid rgb(230, 229, 221);
 }
 
 .post .content p {
@@ -229,7 +243,7 @@ a:hover {
 
 .tweet_text {
   color: #e8cb83;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
 }
 
 #footer {
