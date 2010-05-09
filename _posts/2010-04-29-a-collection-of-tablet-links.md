@@ -29,6 +29,6 @@ April 29, 2010 &mdash; [Microsoft cancels the Courier, the Internet sheds a tear
 
 To wrap it all up:
 
-[Apple Sells One Million iPads](http://www.apple.com/pr/library/2010/05/03ipad.html)
+May 3, 2010 &mdash; [Apple Sells One Million iPads](http://www.apple.com/pr/library/2010/05/03ipad.html)
 
   > Apple today announced that it sold its one millionth iPad on Friday, just 28 days after its introduction on April 3. iPad users have already downloaded over 12 million apps from the App Store and over 1.5 million ebooks from the new iBookstore.
