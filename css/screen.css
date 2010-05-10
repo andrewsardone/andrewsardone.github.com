@@ -167,6 +167,16 @@ a:hover {
 }
 
 .post .content pre {
+  background-color: rgb(248, 248, 255);
+  border: 1px solid rgb(222,222,222);
+  padding: 3px 6px;
+}
+
+.post .content pre code {
+  font-size: 12px;
+}
+
+.post .content code, .post .content pre {
   font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
   line-height: 1.4em;
 }
