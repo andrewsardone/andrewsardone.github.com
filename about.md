@@ -3,9 +3,7 @@ layout: post
 title: About
 ---
 
-My name is Andrew. I'm a technology professional focused mainly on software development. I've historically been a poor writer, so I plan on using this medium to hone the skill, showcasing my work and interests.
-
-I can't, however, promise to regularly put new content on here. For the time being, this might just be a glorified landing page.
+My name is Andrew. I'm a technology professional working at [Nutshell](http://www.nutshell.com), a startup developing some awesome new business software.
 
 ![me](/images/me.png "Andrew Sardone")
 
