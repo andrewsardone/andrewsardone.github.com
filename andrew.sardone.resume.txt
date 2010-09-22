@@ -13,6 +13,10 @@ with an emphasis on web services in an energetic, team environment.
 
 EXPERIENCE
 -----------------------------------------------------------------------
+Nutshell                nutshell.com                     2010 - Present
+Software Developer
+  - Top Secret, for now...
+
 JSTOR/Ithaka            jstor.org                        2008 - Present
 Software Developer
   - Co-developed a distributed batch processing tool and framework to
