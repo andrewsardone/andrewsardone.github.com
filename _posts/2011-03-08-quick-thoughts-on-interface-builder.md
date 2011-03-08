@@ -3,13 +3,13 @@ layout: post
 title: Quick Thoughts on Interface Builder
 ---
 
-On the train ride from Chicago to Ann Arbor, [Justin William's](http://carpeaqua.com) [tweets](https://twitter.com/#!/justinw/status/44868163288051712) [regarding](https://twitter.com/#!/justinw/status/44870801224241152) Interface Builder made me stop and think.
+On today's train ride from Chicago to Ann Arbor, instead of trying to beat my friends' high scores in Doodle Jump (I'm a [distant 3rd](/images/20110308.doodle_jump_game_center.png "Doodle Jump scores")), I stopped to think about [Justin William's](http://carpeaqua.com) [recent](https://twitter.com/#!/justinw/status/44868163288051712) [tweets](https://twitter.com/#!/justinw/status/44870801224241152) regarding Interface Builder.
 
   > Recommending someone not use Interface Builder when learning iOS development in 2011 is insane, unless you enjoy writing extra code. 
   
   > Every project I've ever written has used Interface Builder. Less code = more gooder
 
-There are many benefits to using Interface Builder (visual layout, quick simulation, etc.), but I wanted to think about William's 'less code' point.
+There are many benefits to using Interface Builder (visual layout, quick simulation, etc.), but I was stuck on William's and others' 'less code' point.
 
 Now, if we take 'code' here to strictly mean C/Objective-C code, then yes, view objects that are laid out in Interface Builder use less code. In fact, by this definition, they don't use _any_ amount of code. But I'd say XIBs are code. A XIB file is an XML document representing serialized objects (views, controllers, their respective outlet connections, etc.) which is deserialized at runtime. And these documents consist of a lot of (practically) unreadable XML. Generate a project from Xcode's View-based Application template. The generated XIB for your initial `UIViewController` is 156 lines of XML. This XIB simply creates a full-screen root view with a gray background and other defaults. Let's take a look at how much code this requires if implemented directly within your `UIViewController`:
 
