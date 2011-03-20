@@ -27,7 +27,7 @@ body {
   height: 100%;
   font: 12px "Bitstream Vera Serif", Georgia, serif;
   height: 100%;
-  background-color: #3d3636;
+  background-color: #EAEAEA;
 }
 
 /*Opera Fix*/
@@ -44,7 +44,7 @@ body:before {
   padding: 0;
   width: 100%;
   height: 220px;
-  background-color: #333033;
+  background-color: #5D5B5B;
   bottom-border: 1px solid black;
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
@@ -86,8 +86,12 @@ h1 {
 }
 
 a {
-  color: #505c50;
+  color: #433E3D;
   text-decoration: none;
+}
+
+a:active {
+  color: #90756B;
 }
 
 a:hover {
@@ -100,20 +104,23 @@ a:hover {
   padding-bottom: 120px; /* must be same height as footer */
 }
 
+#main {
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #nav ul {
   list-style-type: none;
   width: 220px;
 }
 
 #nav li {
-  color: #40160c;
+  color: #433E3D;
   font-size: 2em;
   font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #fff6b8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  /* border: 3px solid #abcca7; */
   margin: 6px 0;
   padding: 6px;
   text-align: right;
@@ -124,8 +131,10 @@ a:hover {
   display: block;
 }
 
-#nav li a:hover {
-  background-color: #ffefa7
+#posts {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .post {
@@ -134,19 +143,17 @@ a:hover {
   -moz-border-radius: 5px;
   border-radius: 5px;
   /* border: 3px solid #abcca7; */
+  padding: 0 10px;
   color: #1f1f15;
   margin: 6px 0;
 }
 
 .post .heading {
   font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #302d30;
-  background-color: #fff6b8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  color: #433E3D;
   padding: 12px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  border-bottom: 1px solid #433E3D;
 }
 
 .post .heading h2 {
@@ -156,12 +163,7 @@ a:hover {
 .post .content {
   font-size: 1.2em;
   line-height: 1.5em;
-  color: #3d4955;
-  background-color: white;
-  padding: 12px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  color: #121212;
   margin-bottom: 20px;
 }
 
@@ -183,7 +185,8 @@ a:hover {
 .post .content blockquote {
   margin: 1em 25px;
   padding-left: 1em;
-  border-left: 4px solid rgb(230, 229, 221);
+  border-left: 4px solid #433E3D;
+  color: #433E3D;
 }
 
 .post .content p {
@@ -191,12 +194,12 @@ a:hover {
 }
 
 .post .content a {
+  color: #121212;
   text-decoration: underline;
 }
 
 .post .content a:hover {
-  background-color: #505c50;
-  color: white;
+  color: #A1A09E;
 }
 
 .post .content .archive {
@@ -227,9 +230,10 @@ a:hover {
 }
 
 #footer {
+  color: #121212;
   position: relative
   clear: both;
-  background-color: #333033;
+  background-color: #5D5B5B;
   width: 100%;
   height: 120px;
   margin-top: -120px;
@@ -240,6 +244,19 @@ a:hover {
   -webkit-box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.35);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.35);
   z-index: 10;
+}
+
+#footer a {
+  color: #121212;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #90756B;
+}
+
+#footer a:active {
+  color: #A1A09E;
 }
 
 /* ================ */
@@ -276,11 +293,11 @@ a:hover {
   display: inline-block;
 }
 
-/* color scheme */
-/* #302d30 (background) */
-/* #333033 (lighter background) */
-/* #3d3636 (lighter lighter background) */
-/* #3d4955 (text) */
-/* #505c50 (link) */
-/* #e8cb83 (sidebar) */
-/* #ffefa7 (sidebr border) */
+/* color scheme
+  #121212 - dark
+  #433E3D - dark gray
+  #5D5B5B - light gray
+  #EAEAEA - pearl white
+  #A1A09E - light subtle green 
+  #90756B - light copper
+*/
