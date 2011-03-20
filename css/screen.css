@@ -70,26 +70,16 @@ h1 {
   text-decoration: none;
 }
 
+.name-text-shadow {
+  text-shadow: 2px 2px 0px #121212;
+}
+
 .firstname {
-  color: #505c50;
+  color: #A1A09E;
 }
 
 .lastname {
-  color: #8F7C6E;
-}
-
-.social_link {}
-
-.social_tooltip {
-  background:url("/images/black_arrow_bottom.png");
- font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
-  display: none;
-  font-size: 1.1em;
-  height: 10px;
-  width: 50px;
-  padding: 25px;
-  color: #fff;
-  text-align: center;
+  color: #90756B;
 }
 
 a {
