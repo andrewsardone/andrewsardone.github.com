@@ -62,8 +62,11 @@ h1 {
   margin-top: 140px;
 }
 
-#header a {
-  color: #A8978A;
+#a {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: #EAEAEA;
 }
 
 #header a:hover {
