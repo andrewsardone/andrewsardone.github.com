@@ -226,6 +226,7 @@ a:hover {
 
 #social li {
   margin: 3px 5px;
+  list-style-type: none;
 }
 
 #social .social-link {
