@@ -119,6 +119,7 @@ a:hover {
 
 #nav li {
   color: #433E3D;
+  text-shadow: white 0px 1px;
   font-size: 2em;
   font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 6px 0;
@@ -154,6 +155,7 @@ a:hover {
   padding: 12px;
   margin-bottom: 5px;
   border-bottom: 1px solid #433E3D;
+  text-shadow: white 0px 1px;
 }
 
 .post .heading h2 {
@@ -219,6 +221,7 @@ a:hover {
 #social {
   font-size: 1.3em;
   text-align: right;
+  text-shadow: white 0px 1px;
 }
 
 #social li {
