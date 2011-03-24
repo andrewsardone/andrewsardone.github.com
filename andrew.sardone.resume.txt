@@ -15,9 +15,9 @@ EXPERIENCE
 -----------------------------------------------------------------------
 Nutshell                nutshell.com                     2010 - Present
 Software Developer
-  - Top Secret, for now...
+  - Changing the face of business software
 
-JSTOR/Ithaka            jstor.org                        2008 - Present
+JSTOR/Ithaka            jstor.org                           2008 - 2010
 Software Developer
   - Co-developed a distributed batch processing tool and framework to
     efficiently automate and manage (via a web interface) CPU and I/O
