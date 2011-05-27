@@ -27,7 +27,7 @@ body {
   height: 100%;
   font: 12px "Bitstream Vera Serif", Georgia, serif;
   height: 100%;
-  background-color: #EAEAEA;
+  background: #EAEAEA url(../images/bg.png) repeat;
 }
 
 /*Opera Fix*/
