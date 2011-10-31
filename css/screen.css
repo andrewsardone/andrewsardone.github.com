@@ -209,7 +209,7 @@ a:hover {
 }
 
 .archive .date {
-  font-family: "Bitstream Vera Sans Mono", Andale Mono, monospace
+  font-family: "Bitstream Vera Sans Mono", Andale Mono, monospace;
 }
 
 .content h2 {
