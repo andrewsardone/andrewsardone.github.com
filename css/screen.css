@@ -208,6 +208,10 @@ a:hover {
   list-style-type: none;
 }
 
+.archive .date {
+  font-family: "Bitstream Vera Sans Mono", Andale Mono, monospace
+}
+
 .content h2 {
   font-family: "AvantGarde", "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
