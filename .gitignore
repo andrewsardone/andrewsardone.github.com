@@ -3,3 +3,5 @@
 _drafts/
 _site/
 tmp/
+.bundle
+vendor/bundle/ruby
