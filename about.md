@@ -7,7 +7,7 @@ My name is Andrew. I'm a technology professional working at [Nutshell](http://ww
 
 ![me](/images/me.png "Andrew Sardone")
 
-I live in [Ann Arbor](http://annarbor.com) and attended the [University of Michigan](http://umich.edu) where I studied [math](http://www.math.lsa.umich.edu/). Find me on the web via the links in the header, check out my [résumé](andrew.sardone.resume.txt), or email me at <a href="mailto:andrew@andrewsardone.com">andrew@andrewsardone.com</a>.
+I live in [Ann Arbor](http://annarbor.com) and attended the [University of Michigan](http://umich.edu) where I studied [math](http://www.math.lsa.umich.edu/). Find me on the web via the links in the header, or email me at <a href="mailto:andrew@andrewsardone.com">andrew@andrewsardone.com</a>.
 
 This Site
 ---------
