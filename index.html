@@ -1,16 +1,56 @@
----
-layout: default
-title: Home
----
-{% for post in site.posts limit:3 %}
-  <div class="post">
-    <div class="heading">
-      <h2>{{ post.title }}</h2>
-      <h3>{{ post.date | date: "%Y.%m.%d"}} <span class="permalink"><a href="{{ post.url }}">&#8734; permalink</a></span></h3>
-    </div>
-    <div class="content">
-      {{ post.content }}
-    </div>
-    <hr/>
-  </div>
-{% endfor %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Andrew Sardone"/>
+  <meta content="The home of Andrew Sardone" name="description" />
+  <title>Andrew Sardone</title>
+  <style>
+    html, body {
+      background:white;
+      color:black;
+      font-size:13px;
+      font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h1 {
+      font-size:5em;
+      padding:.1em 0;
+      color:#333;
+      margin:.5em auto;
+      text-align:center;
+    }
+    p {
+      clear:both;
+      font-size:1em;
+      text-align:center;
+      margin:0 auto;
+    }
+    a {color:black;}
+    a:hover {color:white;background-color:black;}
+    .floaters li {
+      display: inline;
+      margin-right: 2em;
+    }
+    nav {
+      text-align: center;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Andrew Sardone</h1>
+</header>
+<section>
+  <nav>
+    <ul id="social" class="floaters">
+      <li><a id="twitter_link" class="social-link" href="http://twitter.com/andrewa2">twitter</a></li>
+      <li><a id="github_link" class="social-link" href="http://github.com/andrewsardone">github</a></li>
+      <li><a id="tumblr_link" class="social-link" href="http://andrewsardone.tumblr.com">tumblr</a></li>
+      <li><a id="flickr_link" class="social-link" href="http://flickr.com/photos/andrewsardone">flickr</a></li>
+      <li><a id="lastfm_link" class="social-link" href="http://last.fm/user/andrewsardone">last.fm</a></li>
+    </ul>
+  </nav>
+</section>
+</body>
+</html>
