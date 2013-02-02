@@ -3,7 +3,7 @@ layout: post
 title: About
 ---
 
-My name is Andrew. I'm a technology professional working at [Nutshell](http://www.nutshell.com), a startup developing some awesome new business software.
+My name is Andrew. I'm a technology professional working at [Nutshell](http://www.nutshell.com) where we're shipping some awesome new business software.
 
 ![me](/images/me.png "Andrew Sardone")
 
