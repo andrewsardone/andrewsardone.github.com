@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/andrewsardone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andrewsardone.com
+  * I am andrewsardone (https://keybase.io/andrewsardone) on keybase.
+  * I have a public key with fingerprint 7138 F183 6AAB D05C 361F  4FB6 EBDC 1C42 BA58 1B68
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7138f1836aabd05c361f4fb6ebdc1c42ba581b68",
+            "host": "keybase.io",
+            "key_id": "EBDC1C42BA581B68",
+            "uid": "264c3b5d3a594365f47625f764a47200",
+            "username": "andrewsardone"
+        },
+        "service": {
+            "hostname": "andrewsardone.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396524322,
+    "expire_in": 157680000,
+    "prev": "294d1381750cddaf60d8101eb9eeaf5707026ebf2ebadb2332d166d48be3264f",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.13 (Darwin)
+
+owGbwMvMwMQoqi5/PPJN9BHG0wd+JzEE27oqVSsl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJXNDY4s0Qwtjs8TEpBQD02RjM8M0k7Qks9SklGTDZBOjpERTC8MkMwsl
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUo6urk4mzobGLk5AhU7wRWXwqWMDIzSTZO
+Mk0xTjS1NDE2M00zMTczMk0zNzNJNDE3MjAAKSxOLcpLzE0Fqk7MSylKLS9OLErJ
+z0tVqtVRAkqVZSanghwOsh+bMr3k/FygKQVF+SX5yfk5QOmMkpICK5DuksoCkPLy
+1KR4qEHxSZl5KcAQAGooSy0qzszPU7IyBKpMLskEmWxobGlmamRibGSko5RaUZBZ
+lBqfCVJham5mYQAEIGtSy0DesjRJAQadobmpQXJKSmKamUGKhaGBYWqSZWpqYpqp
+uYG5gREwENOMUpMSU5KMjI2NUgzNzFJMLJJSjYFBkqYE8lphXr6SlTHQmYnpQCOL
+M9PzEktKi4D+7mSSYWFgZGJgY2UCxSEDF6cALGbdGPj/Smyf8cRfWMLaoe/VrLzz
+c5sPb1s0a+OP+Ai3c7WtgdF/gt9Nmp9nlc7wzczZZvOvEwWMFbeyb7zjLJ6qGitZ
+lPN0r5k0q8wcVnaGhPl3bQ8+X+L0fE1M0HbOx5J2eW2fwwzWfnnC7zF1ZUsM29wP
+/24IRm1YlHc387F855ZQe03/gotSS9dPt6y9zhfw96bW9U+hJ3kf5a07JdySJqx2
+TrHKUFcnm0N45cH1bTKG+zj9f/+xfNB4JHb/56VLV817avi8sS2Dr7ZWZ6Lot7oZ
+bVM/66jm3k04y6Y5fWUeh5zgWyfWq+VPlj3n37Zwye33K1nCqqdzr2arMD3k5rJ6
+QqSmjUNpsc7fnJgtGfzWxSkazcvncW8NzhSt7C24W308Kv+AnOj9JgeuXakLzzZ8
+OWl77PEO77PajILdu37PyIrpZd7J/X12+Vy7hvVtaZtuN8w4Zntltf2ePg1V73U3
+y97463xRqVntumRh+ZGAjbNqr803ZhOwvPw7bN3PsIJ3+bHRu4u/csaa9LdcVBVW
+2cRldHGm522VyZeFNextV55in14TwRcxyXOO6J6eI2/yN8gzrblaPcl788v6ezMk
+13a+e5Nj0u4UVWP3Sy/vd/Rad/M9wX7fPzy5c8a0N7fqyZznJld72VPvJ/IUX4g4
+6eM7N/KV2l5/rcQM6acKk7VuLVeb/EvApT1pQySz+uoGYzMnwZ+SGeKLHAUB
+=ZXNi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andrewsardone
+
+==================================================================
