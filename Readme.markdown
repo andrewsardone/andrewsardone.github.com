@@ -1,1 +1,1 @@
-[andrewsardone.com](http://andrewsardone.com)
+[andrewsardone.com](https://andrewsardone.com)

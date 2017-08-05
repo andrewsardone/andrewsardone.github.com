@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Usage: script/certbot
+# A wrapper script for running `certbot` to generate your Let's Encrypt
+# certificate. An example:
+#
+# ```bash
+# script/certbot certonly -a manual -d andrewsardone.com -d www.andrewsardone.com
+# ```
+
+CERTBOT_VERSION="v0.17.0"
+
+SCRIPT_DIR=$(dirname "$0")
+cd "$SCRIPT_DIR/.."
+
+set -e
+
+function check_dependency() {
+  command -v $1 >/dev/null 2>&1 || {
+    echo >&2 "${1} is required"
+    exit 1
+  }
+}
+
+check_dependency docker
+
+# Wrapper function to docker-certbot
+# See https://hub.docker.com/r/certbot/certbot
+certbot() {
+  docker run \
+    -v $PWD/tmp/letsencrypt_log:/var/log/letsencrypt \
+    -v $PWD/tmp/letsencrypt_etc:/etc/letsencrypt \
+    -it certbot/certbot:$CERTBOT_VERSION $@
+  return $?
+}
+
+certbot $@
