@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Usage: script/server
+# Starts a local development server
+
+SCRIPT_DIR=$(dirname "$0")
+cd "$SCRIPT_DIR/.."
+
+set -e
+
+function check_dependency() {
+  command -v $1 >/dev/null 2>&1 || {
+    echo >&2 "${1} is required. Please install or ask #dev in Slack for help."
+    exit 1
+  }
+}
+
+check_dependency hugo
+
+hugo server

@@ -5,3 +5,6 @@ _site/
 tmp/
 .bundle
 vendor/bundle/ruby
+
+# hugo
+/public
